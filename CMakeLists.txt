@@ -8,6 +8,7 @@ include(pico_extras_import_optional.cmake)
 project(pico_emb C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
+set(PICO_BOARD pico_w)
 
 if(PICO_SDK_VERSION_STRING VERSION_LESS "1.3.0")
   message(
